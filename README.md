@@ -20,7 +20,7 @@ function get_tag(tag){var key=tag+"=";var str=document.cookie.slice(document.coo
 use tencent_online_get::{OnlineOpen,ReturnFile}
 let cookie = ""
 let source_url = ""
-let mut f:OnlineOpen = tencent_online_get::OnlineOpen::new(cookie);
+let mut f = OnlineOpen::new(cookie);
 let ret = f.get_url(source_url).unwrap();//这里得到了ReturnFile格式的地址
 let ret = DownloadFile::new(ret);
 ret.download().unwrap();
