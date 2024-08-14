@@ -10,7 +10,7 @@ function get_tag(tag){var key=tag+"=";var str=document.cookie.slice(document.coo
 
 然后复制输出内容
 
-![1723622466877](.\console.png)
+![1723622466877](console.png)
 
 这个就是cookie了，删不删除两边的引号无所谓（内部做了替换）
 
