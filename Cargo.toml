@@ -2,6 +2,8 @@
 name = "tencent_online_get"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "一个封装好的自用库"
 
 [dependencies]
 anyhow = "1.0.86"
